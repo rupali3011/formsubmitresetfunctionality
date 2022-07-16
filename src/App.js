@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <form onSubmit={(e)=>{
         e.preventDefault();
-        console.log({name},course,pass,tac);
+        console.log(name,course,pass,tac);
         setdata(name+pass+course);
         setname("");
         setpass("");
